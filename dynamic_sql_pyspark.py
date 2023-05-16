@@ -9,7 +9,7 @@ spark = SparkSession.builder.appName('SparkByExamples.com').config("spark.driver
 url="jdbc:mysql://localhost:3306/office"
 prop={
     "user":"root",
-    "password":"mysqlpassword",
+    "password":"mysqlpassword", 
     "driver":"com.mysql.jdbc.Driver",
     "numPartitions":"4"
 }
